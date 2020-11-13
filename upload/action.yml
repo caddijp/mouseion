@@ -7,7 +7,7 @@ inputs:
   bucket:
     description: 'GCS bucket name'
     required: false
-    default: 'flywheel-mouseion'
+    default: 'caddi-internal-api-doc'
   source:
     description: 'Path to documents directory'
     required: false

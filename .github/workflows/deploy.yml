@@ -12,4 +12,4 @@ jobs:
           version: 304.0.0
           service_account_key: ${{ secrets.GCLOUD_AUTH }}
       - name: Deploy mouseion to GAE
-        run: gcloud app deploy --project flywheel-mouseion
+        run: gcloud app deploy --project caddi-internal-document-server
