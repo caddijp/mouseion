@@ -16,6 +16,10 @@ inputs:
     description: 'Document namespace in Mouseion'
     required: false
     default: ''
+  namespace_latest:
+    description: 'Document namespace for the latest version'
+    required: false
+    default: ''
 runs:
   using: 'docker'
   image: 'Dockerfile'
@@ -24,3 +28,4 @@ runs:
     - ${{ inputs.source }}
     - ${{ inputs.namespace }}
     - ${{ inputs.bucket }}
+    - ${{ inputs.namespace_latest }}

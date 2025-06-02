@@ -14,6 +14,10 @@ Example on encoding from a terminal: `base64 ~/<account_id>.json`.
 
 Document namespace in Mouseion. Default is the name of the repository.
 
+### `namespace`
+
+Document namespace to overwrite a copy of the latest version of the document.
+
 ### `source`
 
 Path to documents directory. Default `"docs"`.
