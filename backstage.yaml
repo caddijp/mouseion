@@ -1,0 +1,13 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mouseion
+  description: Internal document sharing system for FLYWHEEL
+  annotations:
+    github.com/project-slug: caddijp/mouseion
+    backstage.io/source-location: url:https://github.com/caddijp/mouseion
+spec:
+  type: repository
+  lifecycle: production
+  owner: group:TODO-set-owner
